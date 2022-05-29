@@ -110,4 +110,19 @@ body {
     background-image: url('images/content_background1.png');
 }
 
+.content-box2-title{
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    font-size: 50px;
+    font-weight:900;
+    color: rgb(239,240,244);
+}
+
+.content-box2-text{
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    font-size: 98px;
+    font-weight:900;
+    color: rgb(239,240,244);
+    left: 100px;
+}
+
 
