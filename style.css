@@ -5,6 +5,8 @@ body {
   background-attachment: fixed;
   margin: 0;
   padding: 0;
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+
 }
 
 .header-wrapper{
@@ -17,7 +19,6 @@ body {
 .header-content-left{
     float: left;
     padding-left: 34%;
-    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
     font-size: 98px;
     font-weight:900;
     color: rgb(239,240,244);
@@ -36,14 +37,12 @@ body {
     float: left;
     margin-top: 24px;
     padding-left: 20px;
-    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
     font-size: 35px;
     font-weight:700;
     color: rgb(239,240,244);
 }
 
 .header-content-center-secondtext{
-    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
     font-size: 25px;
     font-weight:400;
     color: rgb(239,240,244);
@@ -52,12 +51,11 @@ body {
 .header-content-right{
     float: left;
     margin-left: 20px;
-    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
     font-size: 27px;
     font-weight:400;
     color: rgb(239,240,244);
     margin-top: 20px;
-    border: 4px;
+    border: 3px;
     border-style: solid;
     border-radius: 10px;
     padding-left: 10px;
@@ -85,14 +83,13 @@ a:link{
 
 .menu a{
     float: left;
-    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
     font-size: 32px;
     font-weight:400;
     color: rgb(239,240,244);
     text-align: center;
     width: 20%;
     height: 100%;
-    padding-top: 11px;
+    line-height: 65px;
     transition: background-color .2s;
 }
 
@@ -116,7 +113,6 @@ a:link{
 }
 
 .content-box1-title{
-    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
     font-size: 50px;
     font-weight:700;
     color: rgb(18,40,61);
@@ -124,7 +120,6 @@ a:link{
 }
 
 .content-box1-text{
-    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
     font-size: 25px;
     font-weight:400;
     color: rgb(18,40,61);
@@ -140,7 +135,6 @@ a:link{
 }
 
 .content-box2-title{
-    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
     font-size: 50px;
     font-weight:700;
     color: rgb(239,240,244);
@@ -149,7 +143,6 @@ a:link{
 }
 
 .content-box2-text{
-    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
     font-size: 25px;
     font-weight:400;
     color: rgb(239,240,244);
@@ -161,12 +154,11 @@ a:link{
 .content-box2-discord{
     float: left;
     margin-left: 65%;
-    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
     font-size: 27px;
     font-weight:400;
     color: rgb(239,240,244);
     margin-top: 20px;
-    border: 4px;
+    border: 3px;
     border-style: solid;
     border-radius: 10px;
     padding-left: 10px;
@@ -187,4 +179,59 @@ a:link{
     z-index: 1;
 }
 
+.header-content-right a{
+    color: rgb(239,240,244);
+}
 
+.content-box2-discord a{
+    color: rgb(239,240,244);
+}
+
+.faq-content-box{
+    width: 50%;
+    float: left;
+    background-color: rgb(239,240,244);
+    height: 900px;
+    position: static;
+}
+
+.faq{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(18,40,61);
+    border-bottom: 2px solid rgb(18,40,61);
+    cursor: pointer;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3{
+    font-size: 25px;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+}
+.answer p{
+    padding-bottom: 10px;
+    font-size: 20px;
+    line-height: 1.6rem;
+}
+
+.faq.active .answer{
+    max-height: 300px;
+}
+
+.faq-background{
+    background-image: url('images/content_background1.png');
+    position: static;
+    width: 50%;
+    float: left;
+    height: 900px;
+}
