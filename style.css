@@ -9,6 +9,12 @@ body {
 
 }
 
+.header-top{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(13,126,132);
+}
+
 .header-wrapper{
     width: 100%;
     position: fixed;
@@ -55,7 +61,7 @@ body {
     font-weight:400;
     color: rgb(239,240,244);
     margin-top: 20px;
-    border: 3px;
+    border: 2px;
     border-style: solid;
     border-radius: 10px;
     padding-left: 10px;
@@ -77,8 +83,8 @@ a:link{
     background-color: rgb(255,174,134);
     height: 65px;
     position: static;
-    margin-top: 700px;
     z-index: 1;
+    margin-top: 700px;
 }
 
 .menu a{
@@ -87,7 +93,7 @@ a:link{
     font-weight:400;
     color: rgb(239,240,244);
     text-align: center;
-    width: 20%;
+    width: 16.6%;
     height: 100%;
     line-height: 65px;
     transition: background-color .2s;
@@ -158,7 +164,7 @@ a:link{
     font-weight:400;
     color: rgb(239,240,244);
     margin-top: 20px;
-    border: 3px;
+    border: 2px;
     border-style: solid;
     border-radius: 10px;
     padding-left: 10px;
@@ -187,6 +193,17 @@ a:link{
     color: rgb(239,240,244);
 }
 
+.faq-title{
+    color: rgb(13,126,132);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .faq-content-box{
     width: 50%;
     float: left;
@@ -211,7 +228,7 @@ a:link{
 }
 
 .question h3{
-    font-size: 25px;
+    font-size: 21px;
 }
 
 .answer{
