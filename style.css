@@ -57,15 +57,17 @@ body {
 .header-content-right{
     float: left;
     margin-left: 20px;
-    font-size: 27px;
-    font-weight:400;
+    font-size: 20px;
+    font-weight:200;
     color: rgb(239,240,244);
     margin-top: 20px;
     border: 2px;
     border-style: solid;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 45px;
     transition: background-color .2s;
 }
@@ -89,8 +91,8 @@ a:link{
 
 .menu a{
     float: left;
-    font-size: 32px;
-    font-weight:400;
+    font-size: 27px;
+    font-weight:200;
     color: rgb(239,240,244);
     text-align: center;
     width: 16.6%;
@@ -160,15 +162,17 @@ a:link{
 .content-box2-discord{
     float: left;
     margin-left: 65%;
-    font-size: 27px;
-    font-weight:400;
+    font-size: 20px;
+    font-weight:200;
     color: rgb(239,240,244);
     margin-top: 20px;
     border: 2px;
     border-style: solid;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 45px;
     transition: background-color .2s;
 }
