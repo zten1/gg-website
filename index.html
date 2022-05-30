@@ -5,37 +5,24 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+        </script>
+        <script> 
+        $(function(){
+        $("#header").load("header.html"); 
+        });
+        </script> 
+
     </head>
 
     <body>
-        <div class="header-wrapper">
-            <div class="header-content-left">
-                <div>
-                    GG
-                    <div class="vertical-line"></div>
-                </div>
-            </div>
-            <div class="header-content-center">
-                <div>
-                    Gaming network
-                </div>
-                <div class="header-content-center-secondtext">
-                    Minecraft / Valheim / Rust
-                </div>
-            </div>
-            <div class="header-content-right">
-                Join discord
-            </div>
-        </div>
 
-        <nav class="menu">
-            <a>Home</a>
-            <a>Minecraft</a>
-            <a>Valheim</a>
-            <a>Downloads</a>
-            <a>Patreon</a>
-        </nav>
-
+        <header id="header"></header>
+        
         <div class="content-box1">
             <div class="content-box1-child">
                 <div class="content-box1-title">
@@ -59,7 +46,7 @@
                 to join us head over there and we'll see you there!
             </div>
             <div class="content-box2-discord">   
-                Join discord
+                <a href=""> Join discord</a> 
             </div>
         </div>
 
