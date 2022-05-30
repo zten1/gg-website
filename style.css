@@ -63,6 +63,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 45px;
+    transition: background-color .2s;
 }
 
 .header-content-right:hover{
@@ -88,6 +89,7 @@ body {
     width: 20%;
     height: 100%;
     padding-top: 11px;
+    transition: background-color .2s;
 
 }
 .menu a:hover{
@@ -140,7 +142,6 @@ body {
     font-weight:700;
     color: rgb(239,240,244);
     margin-left: 65%;
-    padding-right: 200px;
     padding-top: 200px;
 }
 
@@ -168,6 +169,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 45px;
+    transition: background-color .2s;
 }
 
 .content-box2-discord:hover{
