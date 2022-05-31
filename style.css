@@ -273,7 +273,7 @@ a:link{
     color: rgb(13,126,132);
     margin: auto;
     position: relative;
-    top: 50%;
+    top: 40%;
     background-color: transparent;
     font-size: 20px;
     padding-top: 10px;
@@ -286,4 +286,15 @@ a:link{
 .download-content-box a:hover{
     color: rgb(18,40,61);
     border: 2px solid rgb(18,40,61);
+}
+
+.download-content-box p{
+    text-align: center;
+    top: 50%;
+    margin: auto;
+    position: relative;
+    color: rgb(18,40,61);
+    font-size: 20px;
+    font-weight: 300;
+    width: 50%;
 }
