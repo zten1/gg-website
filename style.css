@@ -11,10 +11,53 @@ body {
 
 .footer{
     width: 100%;
-    height: 80px;
+    height: 200px;
     background-color: rgb(18,40,61);
     position: relative;
     float: left;
+}
+
+.footer-logos-wrapper{
+    float: right;
+    height: 100%;
+    width: 20%;
+    background-color: transparent;
+
+}
+
+.footer-logos-wrapper p{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(13,126,132);
+    margin-top: 17%;
+    padding-left: 7px;
+    line-height: 10px;
+}
+
+.footer-logos-wrapper a{
+    color: rgb(13,126,132);
+    font-size: 45px;
+    padding: 0px 7px;
+}
+
+.footer-credits-1{
+    font-size: 25px;
+    font-weight: 200;
+    text-align: right;
+    line-height: 200px;
+    width: 15%;
+    float: left;
+    color: rgb(13,126,132);
+}
+
+.footer-credits-2{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 200px;
+    width: 10%;
+    float: left;
+    color: rgb(239,240,244);
 }
 
 a:link{
@@ -445,4 +488,16 @@ a:link{
     position: static;
 }
 
+.minecraft-content-bottom p{
+    color: rgb(239,240,244);
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.container-slideshow{
+    width: 100%;
+    height: 76%;
+    background: #222;
+    float: left;
+}
 
