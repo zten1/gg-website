@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+        </script>
+        <script> 
+        $(function(){
+        $("#header").load("header.html"); 
+        $("#footer").load("footer.html");
+        });
+        </script> 
+    </head>
+
+    <body>
+        <header id="header">
+        </header>
+    
+            <div class="patreon-content-box">
+                <div class="patreon-content-box-child">
+                    <h1><span class="patreon1"> Support us with</span> <span class="patreon2"> Patreon </span></h1>
+                    <a href=""> Patreon </a>
+                </div>
+                <div class="patreon-content-box-child">
+                    <p>
+                        All funds donated to our patreon goes directly to funding our datacenter costs which keeps the servers running.
+                        If any individual is able to donate it is always appreciated whether tha is a one time donation or reoccuring, every dollar adds up.
+                        Donors will be featured on this website, recieve a donor tag on Discord, thank you message and a few Minecraft specific perks depending on the tier.
+                    </p>
+                </div>
+            </div>
+            <div class="patreon-image">
+
+            </div>
+
+        <footer id="footer">
+        </footer>
+    </body>
+    <script src="patronGenerator.js"></script>
+</html>
