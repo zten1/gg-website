@@ -1,10 +1,25 @@
-function getId(playername) {
-    return fetch(`https://api.mojang.com/users/profiles/minecraft/${playername}`)
-      .then(data => data.json())
-      .then(player => player.id);
-  }
 
-  // Using .then (anywhere)
-getId(`zten`).then(id => {
-    console.log(`ID is ${id}`)
-  })
+fetch("./patrons.json")
+.then(response => {
+   return response.json();
+})
+.then(jsondata => {
+  //do stuff here
+
+  document.getElementById("patrons").innerHTML = ` 
+  ${jsondata.map(function(patron) {
+    
+    //convert name to UUID with mojang API
+
+    //get profile img with UUID with API
+
+    return `
+    <div class="patron-profile"> 
+      <h1>${patron.minecraft_user_name}</h1>
+      <p> Since: ${patron.start_date}</p>
+    </div> `
+
+  }).join('')}
+
+  `
+});
