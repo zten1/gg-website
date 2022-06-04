@@ -20,6 +20,18 @@
     </head>
 
     <body>
+        <p style="line-height: 0px; color: transparent">a</p>
+        <div class="dynmap-container">
+            <div class="dynmap-background">
+                <span class="dynmap-close">&times;</span>
+                <div class="dynmap">
+                    <iframe src="http://grownupgamers.life:8123/" width="100%" height="100%">
+                        <p>Your browser does not support iframes.</p>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
         <header id="header">
 
         </header>
@@ -33,17 +45,21 @@
             <p> We use the Dynmap plugin on our server. Open it to get a live view over the server map and all the players that are online. </p>
             
             <div class="minecraft-content-right-buttom-wrapper">
-                <a href="http://grownupgamers.life:8123/"> Dynmap </a>
+                <a id="dynmap-button"> Dynmap </a>
                 <a href="https://discord.gg/ufnBxBS"> Discord </a>
             </div>
 
         </div>
         <div class="minecraft-content-bottom">   
             <p>Test test </p>
+            <div class="dynmap-container">
+
+            </div>
         </div>
 
         <footer id="footer">
         </footer>
 
     </body>
+    <script src="dynmapButton.js"></script>
 </html>
