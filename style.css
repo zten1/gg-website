@@ -221,7 +221,7 @@ a:link{
     width: 100%;
     height: 800px;
     background-image: url('images/content_background1.png');
-    position: static;
+    position: relative;
     background-size: cover;
 }
 
@@ -229,8 +229,11 @@ a:link{
     font-size: 50px;
     font-weight:700;
     color: rgb(239,240,244);
-    margin-left: 65%;
+    right: 10%;
+    top: 10%;
     padding-top: 200px;
+    float: left;
+    position: absolute;
 }
 
 .content-box2-text{
