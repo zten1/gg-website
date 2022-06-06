@@ -5,6 +5,13 @@
     text-overflow: clip;
 }
 
+:root {
+    --first: rgb(18,40,61);
+    --second: rgb(239,240,244);
+    --third: rgb(13,126,132);
+    --fourth: rgb(255,174,134);
+}
+
 body {
   background-image: url('images/header_background.png');
   background-position: static;
@@ -18,14 +25,14 @@ body {
 .footer{
     width: 100%;
     height: 200px;
-    background-color: rgb(18,40,61);
+    background-color: var(--first);
     position: relative;
     float: left;
     margin-bottom: 0px;
 }
 
 #borderLeft {
-    border-left: 1px solid rgb(239,240,244);
+    border-left: 1px solid var(--second);
     position: absolute;
     top: 20%;
     bottom: 20%;
@@ -43,14 +50,14 @@ body {
     font-size: 25px;
     font-weight: 200;
     line-height: 200px;
-    color: rgb(13,126,132);
+    color: var(--third);
 }
 
 .credits-2{
     font-size: 25px;
     font-weight: 500;
     line-height: 200px;
-    color: rgb(239,240,244);
+    color: var(--second);
 }
 
 .footer-center{
@@ -60,7 +67,7 @@ body {
     text-align: center;
     font-size: 40px;
     font-weight: 200;
-    color: rgb(13,126,132);
+    color: var(--third);
     line-height: 200px;
 }
 
@@ -73,7 +80,7 @@ body {
 .footer-right p{
     font-size: 30px;
     font-weight: 200;
-    color: rgb(13,126,132);
+    color: var(--third);
     margin-top: 12%;
     padding-left: 7px;
     line-height: 10px;
@@ -89,7 +96,7 @@ body {
 }
 
 .footer-right a{
-    color: rgb(239,240,244);
+    color: var(--second);
     font-size: 45px;
     padding: 0px 7px;
 }
@@ -112,12 +119,12 @@ a:link{
     padding-left: 0%;
     font-size: 98px;
     font-weight:900;
-    color: rgb(239,240,244);
+    color: var(--second);
 }
 
 .vertical-line{
     width: 3px;
-    background-color: rgb(239,240,244);
+    background-color: var(--second);
     float: right;
     height: 120px;
     margin-top: 10px;
@@ -130,13 +137,13 @@ a:link{
     padding-left: 20px;
     font-size: 35px;
     font-weight:700;
-    color: rgb(239,240,244);
+    color: var(--second);
 }
 
 .header-content-center-secondtext{
     font-size: 25px;
     font-weight:200;
-    color: rgb(239,240,244);
+    color: var(--second);
 }
 
 .header-content-right{
@@ -144,7 +151,7 @@ a:link{
     margin-left: 20px;
     font-size: 20px;
     font-weight:200;
-    color: rgb(239,240,244);
+    color: var(--second);
     margin-top: 20px;
     border: 2px;
     border-style: solid;
@@ -158,16 +165,16 @@ a:link{
 }
 
 .header-content-right:hover{
-    background-color: rgb(239,240,244);
+    background-color: var(--second);
 }
 
 .header-content-right a{
-    color: rgb(239,240,244);
+    color: var(--second);
 }
 
 .menu{
     width: 100%;
-    background-color: rgb(255,174,134);
+    background-color: var(--fourth);
     height: 65px;
     margin-top: 700px;
 }
@@ -176,7 +183,7 @@ a:link{
     float: left;
     font-size: 27px;
     font-weight:200;
-    color: rgb(239,240,244);
+    color: var(--second);
     text-align: center;
     width: calc(100% / 6);
     height: 100%;
@@ -185,13 +192,13 @@ a:link{
 }
 
 .menu a:hover{
-    color:rgb(18,40,61);
-    background-color:  rgb(239,240,244);
+    color: var(--first);
+    background-color:  var(--second);
 }
 
 .content-box1{
     width: 100%;
-    background-color: rgb(239,240,244);
+    background-color: var(--second);
     height: 800px;
     position: static;
     z-index: 1;
@@ -206,14 +213,14 @@ a:link{
 .content-box1-title{
     font-size: 50px;
     font-weight:700;
-    color: rgb(18,40,61);
+    color: var(--first);
     text-align: center;
 }
 
 .content-box1-text{
     font-size: 25px;
     font-weight:300;
-    color: rgb(18,40,61);
+    color: var(--first);
     text-align: center;
 }
 
@@ -228,7 +235,7 @@ a:link{
 .content-box2-title{
     font-size: 50px;
     font-weight:700;
-    color: rgb(239,240,244);
+    color: var(--second);
     right: 10%;
     top: 10%;
     padding-top: 200px;
@@ -239,7 +246,7 @@ a:link{
 .content-box2-text{
     font-size: 25px;
     font-weight:400;
-    color: rgb(239,240,244);
+    color: var(--second);
     margin-left: 65%;
     padding-right: 100px;
     padding-top: 50px;
@@ -250,7 +257,7 @@ a:link{
     margin-left: 65%;
     font-size: 20px;
     font-weight:200;
-    color: rgb(239,240,244);
+    color: var(--second);
     margin-top: 20px;
     border: 2px;
     border-style: solid;
@@ -264,27 +271,27 @@ a:link{
 }
 
 .content-box2-discord:hover{
-    background-color: rgb(239,240,244);
+    background-color: var(--second);
 }
 
 .content-box2-discord a{
-    color: rgb(239,240,244);
+    color: var(--second);
 }
 
 .content-box3{
     width: 100%;
-    background-color: rgb(239,240,244);
+    background-color: var(--second);
     height: 800px;
     position: relative;
     z-index: 1;
 }
 
 .content-box2-discord a{
-    color: rgb(239,240,244);
+    color: var(--second);
 }
 
 .faq-title{
-    color: rgb(13,126,132);
+    color: var(--third);
     width: 100%;
     height: auto;
     text-align: center;
@@ -297,7 +304,7 @@ a:link{
 .faq-content-box{
     width: 50%;
     float: left;
-    background-color: rgb(239,240,244);
+    background-color: var(--second);
     height: 900px;
     position: static;
 }
@@ -306,8 +313,8 @@ a:link{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    color: rgb(18,40,61);
-    border-bottom: 2px solid rgb(18,40,61);
+    color: var(--first);
+    border-bottom: 2px solid var(--first);
     cursor: pointer;
 }
 
@@ -351,7 +358,7 @@ a:link{
 .download-content-box{
     width: calc(100% / 3);
     height: 800px;
-    background-color: rgb(239,240,244);
+    background-color: var(--second);
     text-align: center;
     float: left;
     transition: background-color .2s;
@@ -362,8 +369,8 @@ a:link{
 }
 
 .download-content-box a{
-    border: 2px solid rgb(13,126,132);
-    color: rgb(13,126,132);
+    border: 2px solid var(--third);
+    color: var(--third);
     margin: auto;
     position: relative;
     top: 30%;
@@ -377,8 +384,8 @@ a:link{
 }
 
 .download-content-box a:hover{
-    color: rgb(18,40,61);
-    border: 2px solid rgb(18,40,61);
+    color: var(--first);
+    border: 2px solid var(--first);
 }
 
 .download-content-box p{
@@ -386,7 +393,7 @@ a:link{
     top: 40%;
     margin: auto;
     position: relative;
-    color: rgb(18,40,61);
+    color: var(--first);
     font-size: 20px;
     font-weight: 300;
     width: 50%;
@@ -394,7 +401,7 @@ a:link{
 
 .staff-background{
     width: 100%;
-    background-color: rgb(239,240,244);
+    background-color: var(--second);
     height: 1300px;
     position: relative;
 }
@@ -427,14 +434,14 @@ a:link{
 }
 
 .staff-profile h1{
-    color: rgb(13,126,132);
+    color: var(--third);
     text-align: center;
     font-size: 28px;
     font-weight: 200;
 }
 
 .staff-profile p{
-    color: rgb(18,40,61);
+    color: var(--first);
     font-size: 15px;
     font-weight: 200;
     text-align: center;
@@ -454,7 +461,7 @@ a:link{
 .minecraft-content-left{
     width: 65%;
     height: 700px;
-    background-color: rgb(239,240,244);
+    background-color: var(--second);
     position: relative;
     float: left;
     margin: 0px;
@@ -463,7 +470,7 @@ a:link{
 .minecraft-content-left h1{
     font-size: 90px;
     font-weight: 800;
-    color: rgb(18,40,61);
+    color: var(--first);
     margin-left: 20px;
     margin-right: 30%;
     margin-top: 170px;
@@ -474,7 +481,7 @@ a:link{
 .minecraft-content-left p{
     font-weight: 300;
     font-size: 30px;
-    color: rgb(13,126,132);
+    color: var(--third);
     margin-left: 20px;
     margin-right: 30%;
 }
@@ -488,8 +495,8 @@ a:link{
 }
 
 .minecraft-content-right a{
-    color: rgb(13,126,132);
-    border: 2px solid rgb(13,126,132);
+    color: var(--third);
+    border: 2px solid var(--third);
     text-align: center;
     font-size: 20px;
     font-weight: 300;
@@ -509,20 +516,20 @@ a:link{
 }
 
 .minecraft-content-right a:hover{
-    color: rgb(18,40,61);
-    border: 2px solid rgb(18,40,61);
+    color: var(--first);
+    border: 2px solid var(--first);
 }
 
 .minecraft-content-right p{
     width: 60%;
     margin: 0px auto;
     margin-top: 100px;
-    color: rgb(18,40,61);
+    color: var(--first);
     font-size: 20px;
     line-height: 1.6rem;
     font-weight: 300;
     padding-bottom: 20px;
-    border-bottom: 2px solid rgb(18,40,61);
+    border-bottom: 2px solid var(--first);
 }
 
 .minecraft-content-bottom{
@@ -535,7 +542,7 @@ a:link{
 }
 
 .minecraft-content-bottom p{
-    color: rgb(239,240,244);
+    color: var(--second);
     font-weight: 800;
     font-size: 60px;
 }
@@ -550,7 +557,7 @@ a:link{
 .patreon-content-box{
     width: 100%;
     height: 450px;
-    background-color: rgb(239,240,244);
+    background-color: var(--second);
     float: left;
 }
 
@@ -569,19 +576,19 @@ a:link{
 .patreon-content-box p{
     font-size: 27px;
     font-weight: 200;
-    color: rgb(18,40,61);
+    color: var(--first);
     width: 50%;
     margin: auto;
     margin-top: 5%;
 }
 
 .patreon1{
-    color: rgb(18,40,61);
+    color: var(--first);
     font-weight: 200;
 }
 
 .patreon2{
-    color: rgb(13,126,132);
+    color: var(--third);
     font-weight: 700;
 }
 
@@ -595,8 +602,8 @@ a:link{
 }
 
 .patreon-content-box a{
-    border: 2px solid rgb(13,126,132);
-    color: rgb(13,126,132);
+    border: 2px solid var(--third);
+    color: var(--third);
     background-color: transparent;
     font-size: 20px;
     padding-top: 10px;
@@ -609,8 +616,8 @@ a:link{
 }
 
 .patreon-content-box a:hover{
-    color: rgb(18,40,61);
-    border: 2px solid rgb(18,40,61);
+    color: var(--first);
+    border: 2px solid var(--first);
 }
 
 #patrons{
@@ -620,7 +627,7 @@ a:link{
 }
 
 .patron-profile{
-    background-color: rgb(239,240,244, 0.8);
+    background-color: var(--second);
     width: 150px;
     height: 180px;
     margin: 50px 50px;
@@ -630,20 +637,20 @@ a:link{
 }
 
 .patron-profile:hover{
-    background-color: rgb(239,240,244);
+    background-color: var(--second);
 }
 
 .patron-profile h1{
     font-size: 20px;
     text-align: center;
-    color: rgb(13,126,132);
+    color: var(--third);
     font-weight: 700;
 }
 
 .patron-profile p{
     font-size: 15px;
     text-align: center;
-    color: rgb(18,40,61);
+    color: var(--first);
     font-weight: 400;
 }
 
@@ -657,8 +664,8 @@ a:link{
 }
 
 .green-join-button{
-    border: 2px solid rgb(18,40,61);
-    color: rgb(18,40,61);
+    border: 2px solid var(--first);
+    color: var(--first);
     background-color: transparent;
     font-size: 20px;
     padding-top: 10px;
@@ -750,8 +757,8 @@ a:link{
 }
 
 .link-box a{
-    border: 2px solid rgb(239,240,244);
-    color: rgb(239,240,244);
+    border: 2px solid var(--second);
+    color: var(--second);
     background-color: transparent;
     font-size: 20px;
     padding-top: 10px;
@@ -768,11 +775,11 @@ a:link{
 }
 
 .link-box a:hover{
-    background-color: rgb(239,240,244);
+    background-color: var(--second);
 }
 
 .link-box p{
-    color: rgb(239,240,244);
+    color: var(--second);
     font-size: 20px;
     font-weight: 200;
     position: absolute;
