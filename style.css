@@ -13,7 +13,7 @@
 }
 
 body {
-  background-image: url('images/header_background.png');
+  background-image: url('images/mountain2_background.png');
   background-position: static;
   background-attachment: fixed;
   background-size: cover;
@@ -112,6 +112,11 @@ a:link{
     transform: translate(-50%, 0);
     top: 300px;
     z-index: -1;
+    color: var(--second);
+
+    background: linear-gradient(350deg, #F6E5FF, var(--second) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .header-content-left{
@@ -119,11 +124,10 @@ a:link{
     padding-left: 0%;
     font-size: 98px;
     font-weight:900;
-    color: var(--second);
 }
 
 .vertical-line{
-    width: 3px;
+    width: 2px;
     background-color: var(--second);
     float: right;
     height: 120px;
@@ -137,13 +141,11 @@ a:link{
     padding-left: 20px;
     font-size: 35px;
     font-weight:700;
-    color: var(--second);
 }
 
 .header-content-center-secondtext{
     font-size: 25px;
     font-weight:200;
-    color: var(--second);
 }
 
 .header-content-right{
@@ -151,7 +153,6 @@ a:link{
     margin-left: 20px;
     font-size: 20px;
     font-weight:200;
-    color: var(--second);
     margin-top: 20px;
     border: 2px;
     border-style: solid;
@@ -169,7 +170,7 @@ a:link{
 }
 
 .header-content-right a{
-    color: var(--second);
+    color: inherit;
 }
 
 .menu{
@@ -205,19 +206,20 @@ a:link{
 }
 
 .menu2{
-    width: 70%;
+    width: 60%;
     background-color: var(--fourth);
     background-color: #FF9260;
     background-color: #212529;
     background-color: rgb(255, 126, 66);
 
-    height: 85px;
+    height: 84px;
     margin-top: 700px;
     margin-left: auto;
     margin-right: auto;
-    z-index: 2;
+    z-index: 1;
     position: relative;
     box-shadow: 0px 0px 8px 0.5px #3D3D3D;
+    box-shadow: 0px 0px 8px 0.1px #3D3D3D;
 }
 
 .menu2-items-container{
@@ -234,7 +236,7 @@ a:link{
     text-align: center;
     width: calc(100% / 7);
     height: 100%;
-    line-height: 85px;
+    line-height: 84px;
 }
 
 .menu2-items-container a:hover{
@@ -242,16 +244,13 @@ a:link{
 }
 
 .menu2-play{
-    float: left;
-    font-size: 20px;
-    font-weight:400;
-    color: var(--second);
     background-color: #5CDB94;
-    text-align: center;
-    width: calc(100% / 7);
-    height: 100%;
-    line-height: 85px;
     cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.menu2-play:hover{
+    background-color: #4DF998;
 }
 
 /* Play button modal*/
@@ -277,6 +276,17 @@ a:link{
 
     animation-name: playModal;
     animation-duration: 0.3s;
+    border-radius: 10px;
+}
+
+.play-modal-text-container{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    left:50%; 
+    top:50%; 
+    transform: translate(-50%, -50%);
 }
 
 .play-modal ul {
@@ -285,8 +295,22 @@ a:link{
 
 .play-modal ul li {
     position: relative;
-    padding: 3px 0 2px 25px;
-    font-size: 50px;
+    width: 100%;
+    font-size: 25px;
+    border-bottom: 1px solid darkgray;
+    color: var(--first);
+    padding-bottom: 4%;
+    padding-top: 4%;
+    font-weight: 800;
+}
+
+.play-modal ul li a{
+    color: var(--third);
+    text-decoration: underline;
+}
+
+.play-modal ul li a:hover{
+    color: var(--first);
 }
 
 .content-box1-child{
@@ -367,7 +391,7 @@ a:link{
     background-color: var(--second);
     height: 800px;
     position: relative;
-    margin-top: -40px;
+    margin-top: -42px;
 }
 
 .content-box2-discord a{
@@ -398,6 +422,7 @@ a:link{
     background-color: var(--second);
     height: 900px;
     position: static;
+    margin-top: -42px;
 }
 
 .faq{
@@ -444,6 +469,7 @@ a:link{
     width: 50%;
     float: left;
     height: 900px;
+    margin-top: -42px;
 }
 
 .download-content-box{
@@ -500,6 +526,7 @@ a:link{
     background-color: var(--second);
     height: 1300px;
     position: relative;
+    margin-top: -42px;
 }
 
 .staff-content-box{
@@ -561,6 +588,7 @@ a:link{
     position: relative;
     float: left;
     margin: 0px;
+    margin-top: -42px;
 }
 
 .minecraft-content-left h1{
@@ -588,6 +616,7 @@ a:link{
     background-color: white;
     position: relative;
     float: left;
+    margin-top: -42px;
 }
 
 .minecraft-content-right a{
@@ -655,6 +684,7 @@ a:link{
     height: 450px;
     background-color: var(--second);
     float: left;
+    margin-top: -42px;
 }
 
 .patreon-content-box-child{
