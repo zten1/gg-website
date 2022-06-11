@@ -13,7 +13,7 @@
 }
 
 body {
-  background-image: url('images/mountain2_background.png');
+  background-image: url('images/header_background.png');
   background-position: static;
   background-attachment: fixed;
   background-size: cover;
@@ -23,7 +23,7 @@ body {
 }
 
 .top-bar{
-    width: 70%;
+    width: 80%;
     height: 55px;
     position: fixed;
     top: 0px;
@@ -33,6 +33,7 @@ body {
     left: 50%;
     transform: translate(-50%, 0);
     box-shadow: 0px 0px 8px 0.1px #3D3D3D;
+    transition: top 0.2s;
 }
 
 .top-bar-right{
@@ -43,7 +44,7 @@ body {
 }
 
 .top-bar-logos-container{
-    width: 155px;
+    width: 165px;
     height: 100%;
     margin: 0 auto;
 }
