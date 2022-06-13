@@ -296,8 +296,8 @@ a:link{
     margin-right: auto;
     z-index: 1;
     position: relative;
-    box-shadow: 0px 0px 8px 0.5px #3D3D3D;
-    box-shadow: 0px 0px 8px 0.1px #3D3D3D;
+    /*box-shadow: 0px 0px 8px 0.5px #3D3D3D;*/
+    box-shadow: 0px 0px 20px 0.1px #3D3D3D;
 }
 
 .menu2-items-container{
@@ -1021,11 +1021,12 @@ a:link{
     color: var(--third);
     left: 100%;
     background: linear-gradient(350deg, var(--first), var(--third) 80%);
+    background-color: var(--third);
     top: 50%;
     transform: translate(0, -50%);
     box-shadow: 0px 0px 8px 0.1px #3D3D3D;
 
-    transition: left 0.2s;
+    transition: all 0.3s ease-out;
 }
 
 .index-box2{
@@ -1035,11 +1036,13 @@ a:link{
     color: var(--third);
     right: 100%;
     background: linear-gradient(350deg, var(--first), var(--third) 80%);
+    background: linear-gradient(350deg, #f12711, #f5af19 80%);
+    background-color: var(--second);
     top: 50%;
     transform: translate(0, -50%);
     box-shadow: 0px 0px 8px 0.1px #3D3D3D;
 
-    transition: right 0.3s;
+    transition: all 0.3s ease-out;
 }
 
 .index-box1-image{
@@ -1051,9 +1054,10 @@ a:link{
     display: block;
     top: 50%;
     transform: translate(0, -50%);
+    border-radius: 7px;
     box-shadow: 0px 0px 8px 0.1px #3D3D3D;
 
-    transition: right 0.2s;
+    transition: all 0.3s ease-out;
 }
 
 .index-box2-image{
@@ -1065,9 +1069,10 @@ a:link{
     display: block;
     top: 50%;
     transform: translate(0, -50%);
+    border-radius: 7px;
     box-shadow: 0px 0px 8px 0.1px #3D3D3D;
 
-    transition: left 0.3s;
+    transition: all 0.3s ease-out;
 }
 
 .index-box1 h1{
@@ -1117,9 +1122,111 @@ a:link{
     background-color: var(--second);
     color: var(--first);
     border-radius: 6px;
-    box-shadow: 0px 0px 8px 0.1px #3D3D3D;
+
+    transition: width 0.2s;
 }
 
+.index-box1-button:hover{
+    width: 170px;
+}
+
+.index-between{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-image: url('images/mountain_wide.png');
+}
+
+.index-between-color{
+    background-color: rgb(18,40,61, 0.8);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.index-between-box1{
+    position: absolute;
+    height: 30%;
+    width: 0%;
+    left: 0%;
+    top: 35%;
+    transform: translate(0, -50%);
+    background-color: var(--third);
+    transition: all 0.3s ease-in;
+}
+
+.index-discord-right{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 10%;
+    color: rgb(18,40,61,0);
+    transition: all 0.3s ease-in;
+}
+
+.index-discord-right-section{
+    width: calc(100% / 3);
+    height: 100%;
+    float: left;
+}
+
+.index-discord-right-section h1{
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 35%;
+    color: inherit;
+    width: 100%;
+}
+
+.index-discord-right-section p{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: inherit;
+    padding: 0 25%;
+}
+
+.index-discord-left{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    left: 10%;
+    color: rgb(18,40,61,0);
+    transition: all 0.3s ease-in;
+}
+
+.index-discord-left p{
+    color: inherit;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 17%;
+}
+
+.index-discord-button{
+    border: 2px solid inherit;
+    color: inherit;
+    position: absolute;
+    background-color: transparent;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    text-align: center;
+    width: 150px;
+    left: 0%;
+    bottom: 20%;
+    background-color: var(--second);
+    color: var(--first);
+    border-radius: 6px;
+    transition: width 0.2s;
+}
+
+.index-discord-button:hover{
+    width: 170px;
+}
 
 @keyframes animatetop {
     from {top: -300px; opacity: 1;}

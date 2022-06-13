@@ -8,5 +8,6 @@ $(window).scroll(function() {
     else if ( scrolledLength < 1300) {
          
         document.getElementsByClassName("top-bar")[0].style.top = "0px";
-   }
+    }
+
  });
