@@ -19,7 +19,7 @@ $(window).scroll(function() {
         document.getElementById("img3").style.right = "45%";
     }
 
-    if( scrolledLength > 2000) {
+    if( scrolledLength > 2100) {
  
         document.getElementsByClassName("index-discord-right")[0].style.color = "var(--second)";
         document.getElementsByClassName("index-discord-left")[0].style.color = "var(--second)";
