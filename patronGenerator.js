@@ -1,4 +1,4 @@
-fetch("./patrons.json")
+fetch("./json_files/patrons.json")
 .then(response => {
    return response.json();
 })
